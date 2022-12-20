@@ -1,0 +1,273 @@
+body {
+	margin: 0;
+	padding:0;
+	line-height: 1.5em;
+	background-color: #E7F0FC;
+	font-family: "ubuntu", sans-serif;
+}
+
+/* ##### Navigation Bar ##### */
+
+#header {
+	background-image: linear-gradient(rgba(244,244,244,1), rgba(244,244,244,0));
+	position: fixed;
+	width: 100%;
+	font-family: ubuntu;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 10px;
+	z-index:9999;
+	top:0;
+
+}
+
+#headercontent {
+	max-width: 900px;
+	margin: auto;
+}
+
+#logo {
+	height: 50px;
+	margin:5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	text-transform: uppercase;
+}
+
+li {
+	float: right;
+}
+
+li a {
+	display: block;
+	color: #00091B;
+	text-align: center;
+	padding: 24px 16px;
+	text-decoration: uppercase;
+}
+
+li a:hover:not(.active) {
+	color: #233E75;
+}
+
+.active {
+	color: #233E75;
+}	
+
+/* ##### ##### */
+
+#hero {
+	padding: 0px;
+	top: opx;
+	max-width: 900px;
+	margin: auto;
+	padding-top:140px;
+	clear: left;
+}
+
+#heroimg {
+	margin: -20px 0 0 0;
+	float: right;
+	border-radius: 0 0 0 250px;
+	height:560px;
+	width: 600px;
+	object-fit: cover;
+}
+
+#herobox {
+	display: block;
+	height:340px;
+	
+
+}
+
+h1 {
+	color:#FF9A2C;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 24px;
+}
+
+h2 {
+	color:#00091B;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+h3 {
+	color:#FF9A2C;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 20px;
+	margin: 80px;
+}
+
+h4 {
+	color:#FF9A2C;
+	font-weight: 600;
+	font-size: 20px;
+}
+
+h2 {
+	color:#00091B;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+#mais {
+	border: none;
+	color: #f4f4f4;
+	padding: 16px 32px;
+	text-align: center;
+	text-transform: uppercase;
+	display: inline-block;
+	font-size: 16px;
+	background-color: #31BAEB;
+	font-weight: 600;
+	border-radius: 32px;
+  }
+  
+#container {
+	max-width: 900px;
+	margin: auto;
+	clear: left;
+	text-align: center;
+}
+
+.box2 {
+	width: 24%;
+	text-align: center;
+	display: inline-block;
+	background-color: #f2f2f2;
+	border-radius: 32px;
+	padding: 16px;
+	margin: 8px;
+	position: relative;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#zap {
+	position: fixed;
+	bottom: 40px;
+	left: 40px;
+	width: 68px;
+	z-index: 9999;
+}
+
+
+
+
+#cliente {
+	max-width: 900px;
+	margin: auto;
+	clear: left;
+	text-align: center;
+	padding: 16px;
+}
+
+#fazemos {
+	max-width: 900px;
+	margin: auto;
+	clear: left;
+	text-align: center;
+	margin: 200 0 200 0;
+}
+
+#produtos {
+	height: 470px;
+	background-image: url("bg.png");
+	background-repeat: no-repeat;
+	background-position: -100%;
+	
+}
+
+.box3 {
+	width: 220px;
+	text-align: center;
+	display: inline-block;
+	background-color: #f2f2f2;
+	border-radius: 32px;
+	padding: 16px;
+	margin: 8px;
+	position: relative;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+#tituloprod {
+	float:left;
+	width:40%;
+	padding-top: 220px;
+	padding-left: 100px;
+	display: block;
+	height:340px;
+
+}
+
+#prod2 {
+	position: relative;
+	float:right;
+	right: ;
+	width: 50%;
+	display: flex;
+
+}
+
+#col1 {
+	position:relative;
+	top:;
+	width: 250px;
+	margin: 16px;
+}
+
+#col2 {
+	position:relative;
+	top:50px;
+	width: 250px;
+		margin: 16px;
+
+}
+
+hr { 
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 0px;
+} 
+
+#footer1 {
+	background-color: rgba(0, 9, 27, 0.9);
+	display: flex;
+	padding: 36px;
+	color: #f4f4f4;
+	padding: 16px;
+
+}
+
+footer {
+	background-color: #00091b;
+	color: #f4f4f4;
+	text-align: center;
+	font-size: 16px;
+	padding: 4px;
+
+}
+
+#footerlogo {
+	height: 54px;
+	margin: 32px;
+}
+
+.textfooter {
+	padding: 16px;
+
+}
