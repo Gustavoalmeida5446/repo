@@ -3,9 +3,9 @@
 // alert (`Fala ${kohlerName[nick]}`);
 
 
-function validPassword (password, username){
-const size = password.length >8;
+function validPassword (password, username) {
+const size = password.length < 8;
 const space = password.indexOf(' ') !== -1;
-const containsUsername = password.indexOf(username) !== -1;
-return !size && !space && !containsusername;
+const name = password.indexOf(username) !== -1;
+return !size && !space && !name;
 }
