@@ -4,8 +4,8 @@
 
 
 function validPassword(password, username) {
-  const size = password.length >= 8; // Verifica se o comprimento da senha é maior ou igual a 8
-  const space = password.indexOf(' ') === -1; // Verifica se não há espaço na senha
-  const name = password.indexOf(username) === -1; // Verifica se o nome de usuário não está na senha
-  return size && space && name; // Retorna true se todos os critérios forem satisfeitos
+  const size = password.length >= 8; // se a senha for maior que 9 caracteres, true
+  const space = password.indexOf(' ') === -1; // se não tiver espaço na senha, true
+  const name = password.indexOf(username) === -1; // se não tiver o username na senha, true
+  return size && space && name; // se alguma variável não for true, retorna false
 }
