@@ -64,6 +64,7 @@ function average(arr) {
     return total / arr.length;
 }
 
+const sentenceTrue = 'Nenhum gay acertou a hora exata no blog ruim que o webmaster Pedro fez em Javascript pra rankear melodias';
 const sentence = 'ninguem acertou o horario exato no blog ruim que pedro fez em javascript';
 function pangram(sentence) {
     let lowercased = sentence.toLowerCase();
