@@ -74,3 +74,23 @@ function pangram(sentence) {
     }
     return true;
 }
+
+function pick(arr) {
+    const idx = Math.floor(Math.random() * arr.length);
+    return arr[idx];
+}
+
+function getCard() {
+    const cartas = ['A', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K']
+    const cartaSelecionada = pick(cartas);
+    const naipes = ['paus', 'ouros', 'copas', 'espadas']
+    const naipeSelecionado = pick(naipes);
+    //return `carta ${carta2} de ${naipe2}`;
+    return cartaSelecionada + ' de ' + naipeSelecionado
+}
+
+function cartasAleatorias(num) {
+    for (i = 0; i < num; i++) {
+        console.log(getCard());
+    }
+}
