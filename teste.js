@@ -95,3 +95,62 @@ function cartasAleatorias(num) {
         console.log(getCard());
     }
 }
+
+
+const numbers = [2, 5, 9, 24, 32, 89, 57, 43, 105, 7, 11, 14, 300]
+
+
+// 1. identificar se todos os elementos de um determinado array são números ímpares
+
+function isOdd(arr) {
+    return arr.every(n => typeof n === 'number' && n % 2 === 1)
+}  
+
+// 2. identificar se algum dos elementos de um array não é um número
+
+function hasNonNumber(arr) {
+    return arr.some(n => typeof n !== 'number')
+}
+
+// 3. dado um array com vários elementos do tipo number, retornar somente os elementos que são pares
+
+function getEvenNumbers(arr) {
+    return arr.filter(n => typeof n === 'number' && n % 2 === 0)
+}
+
+// 4. logar no console cada elemento do array
+
+function logElements(arr) {
+    arr.forEach(n => console.log(n))
+}
+
+// 5. dado um array com vários elementos do tipo number, retornar um novo array cujos elementos serão o valor do elemento do array inicial + 3 
+
+function plusThree(arr) {
+    return arr.map(n => n + 3)
+}
+
+// 6. dado um array com vários elementos do tipo number, retornar o 'average' desses números
+
+function avg(arr) {
+    return arr.reduce((total, el) => total + el, 0) / arr.length
+}
+
+// extra
+
+function log(el) {
+
+    if (Array.isArray(el)) // se for array)
+    {
+        el.forEach(n => console.log(n))
+    } else {
+        console.log(el)
+    }
+}
+
+
+
+function randomNumbersArray(length = 10) {
+    return Array.from(Array(length), () => Math.floor(Math.random() * 100) + 1);
+}
+
